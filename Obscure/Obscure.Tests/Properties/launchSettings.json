@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Obscure.Tests": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
