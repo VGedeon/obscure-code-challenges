@@ -1,10 +1,10 @@
 ﻿namespace Obscure.Tests;
 
 #if REMOVE_THIS
+#region protected
 
 public sealed class TransmorpherTests
 {
-    #region protected
 
     /// <summary>
     /// Make this test PASS.
@@ -25,8 +25,8 @@ public sealed class TransmorpherTests
         return new Cat { MakesSound = dog.MakesSound };
     }
 
-    #endregion
 }
+#endregion
 
 public sealed class Cat
 {

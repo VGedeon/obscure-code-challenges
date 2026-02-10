@@ -16,9 +16,9 @@ public sealed class CatchThisTests
         {
             CatchThis();
         }
-        catch (Exception ex)
+        catch (Exception _)
         {
-            Assert.Pass(ex.Message);
+            Assert.Pass("Booo!!!");
         }
     }
 
